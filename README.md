@@ -1,1 +1,1 @@
-# Guess-the-Number
+### Guess-the-Number: In this repo, I will try to implement a game code of guessing a number between 1 and 100 in 10 chances. If the number guessed doesn't matches code will display if your guessed number is greater or smaller than the actual number.
