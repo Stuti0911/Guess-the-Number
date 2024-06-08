@@ -1,0 +1,22 @@
+.body{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.start{
+    font-size: 23px;
+}
+
+#input{
+    padding: 7px;
+    margin-top: 20px;
+}
+
+.submit{
+    margin: 20px;
+    width: 110px;
+    height: 40px;
+    /* background-color: rgb(98, 242, 54); */
+}

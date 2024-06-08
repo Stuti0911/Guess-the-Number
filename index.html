@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
+    <script src="script.js"></script>
+    <title>Guess The Number</title>
+    
+</head>
+<body class="body">
+    <form class="form">
+        <h1>Guess The Number!!</h1>
+        <p>You have 10 chances to guess the number correctly, the random selected number will be between 1 and 100 </p>
+        <input type="text"  id="input" class="guessedNumber" placeholder="Guess">
+        <br>
+        <input type="submit" id="sbt" value="Submit Guess" >
+    </form>
+
+    <div class="result">
+        <p>Previous Guesses:<span class="guess"></span></p>
+        <p>Guesses Left: <span class="remainingGuess"></span></p>
+        <p class="highLow"></p>
+    </div>
+</body>
+</html>
